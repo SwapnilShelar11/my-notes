@@ -1,0 +1,27 @@
+Storage classes:
+
+Storage Class-Standard Storage
+Name for APIs and gsutil-STANDARD
+Minimum storage duration-None	
+Standard Storage is best for data that is frequently accessed ("hot" data) and/or stored for only brief periods of time.
+
+Storage Class-Nearline Storage
+Name for APIs and gsutil-NEARLINE
+Minimum storage duration-30 days	
+Nearline Storage is a low-cost, highly durable storage service for storing infrequently accessed data. 
+Nearline Storage is a better choice than Standard Storage in scenarios where slightly lower availability, 
+   a 30-day minimum storage duration, and costs
+
+Storage Class-Coldline Storage
+Name for APIs and gsutil-COLDLINE
+Minimum storage duration-90 days
+Coldline Storage is a very-low-cost, highly durable storage service for storing infrequently accessed data.
+Coldline Storage is a better choice than Standard Storage or Nearline Storage in scenarios where slightly lower availability, 
+   a 90-day minimum storage duration, and higher costs 	
+
+Storage Class-Archive Storage
+Name for APIs and gsutil-ARCHIVE
+Minimum storage duration-365 days	
+Archive Storage is the lowest-cost, highly durable storage service for data archiving, online backup, and disaster recovery. 
+Like Nearline Storage and Coldline Storage, Archive Storage has a slightly lower availability than Standard Storage. 
+Archive Storage also has higher costs for data access and operations, as well as a 365-day minimum storage duration.

@@ -1,0 +1,6 @@
+consumer_key = "SPBc8ExYfr94zS7qX2VXMEVAB"
+consumer_secret = "DVg6AlIQcNZbBPHwmQfMOTKM7ydq1dzvzm4gM7M4zSnx2iVmlR"
+access_token = "1483671659009941506-G3Dy3aOGB4pWDsrvAuXq0jqx1oCgAO"
+access_token_secret = "ujFF133WZRkwXjEBoJwMcIpxThj2VTFgL5M1b53X5kcd1"
+
+https://www.youtube.com/watch?v=Lu1nskBkPJU

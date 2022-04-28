@@ -1,0 +1,28 @@
+Cloud Bigtable:
+
+Cloud Bigtable is Google's fully managed NoSQL Big Data database service. 
+It's the same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.
+Cloud Bigtable is a sparsely populated table that can scale to billions of rows and thousands of columns, enabling you to store terabytes or even petabytes of data.
+A single value in each row is indexed; this value is known as the row key. 
+     Bigtable is ideal for storing very large amounts of single-keyed data with very low latency.
+	 
+	 
+What it's good for
+
+Bigtable is ideal for applications that need very high throughput and scalability for key/value data, where each value is typically no larger than 10 MB. 
+Bigtable also excels as a storage engine for batch MapReduce operations, stream processing/analytics, and machine-learning applications.
+
+links to reffer:
+https://cloud.google.com/bigtable/docs/overview
+
+Bigtable storage model
+Bigtable stores data in massively scalable tables, each of which is a sorted key/value map. 
+The table is composed of rows, each of which typically describes a single entity, and columns, which contain individual values for each row.
+Each row is indexed by a single row key, and columns that are related to one another are typically grouped together into a column family. 
+Each column is identified by a combination of the column family and a column qualifier, which is a unique name within the column family.
+
+cloud datastore
+->Datastore is a highly scalable NoSQL database for your applications.
+->Datastore automatically handles sharding and replication, providing you with a highly available and durable database that scales automatically to handle your applications' load. 
+->Datastore provides a myriad of capabilities such as ACID transactions, SQL-like queries, indexes, and much more.
+ capacity: terabytes

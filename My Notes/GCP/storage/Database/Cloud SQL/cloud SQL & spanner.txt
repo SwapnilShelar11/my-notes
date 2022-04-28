@@ -1,0 +1,69 @@
+problems this days with databases:
+1.Inability to scale
+2.data inconsistency
+3.cost inefficiencies
+
+Cloud SQL:
+Cloud SQL is a fully-managed database service that helps you set up, maintain, manage,
+   and administer your relational databases on Google Cloud Platform.
+You can use Cloud SQL with MySQL, PostgreSQL, or SQL Server.
+Maximum cloud sql capacity:3.TB
+
+Use cases for Cloud SQL
+Cloud SQL provides a cloud-based alternative to local MySQL, PostgreSQL, and SQL Server databases. 
+You should use Cloud SQL if you want to spend less time managing your database and more time using it.
+
+Many applications running on Compute Engine, App Engine and other services in Google Cloud use Cloud SQL for database storage.
+
+What is a Cloud SQL instance?
+Each Cloud SQL instance is powered by a virtual machine (VM) running on a host Google Cloud server. 
+Each VM operates the database program, such as MySQL Server, PostgreSQL, or SQL Server, and service agents 
+     that provide supporting services, such as logging and monitoring. 
+	 
+	
+Cloud SQL for MySQL :	
+Cloud SQL for MySQL is a fully-managed database service that helps you set up, maintain, manage, and administer 
+      your MySQL relational databases on Google Cloud Platform. 
+	  
+
+Cloud SQL for PostgreSQL:
+Cloud SQL for PostgreSQL is a fully-managed database service that helps you set up, maintain, manage, and administer 
+   your PostgreSQL relational databases on Google Cloud Platform.
+   
+   
+cloud spanner:
+Cloud Spanner is a fully managed, mission-critical, relational database service that offers transactional consistency at global scale, 
+      automatic, synchronous replication for high availability, and support for two SQL dialects: 
+	  Google Standard SQL (ANSI 2011 with extensions) and PostgreSQL.
+
+Uses:
+1.Upto 99.99% availability
+2.zero downtime
+3.No maintainance windows
+4.proven for large and small windows
+
+advantages:
+1.scalability
+2.consistency
+3.avalability (replication)
+
+security:
+1.Data layer encryption
+2.IAM integration
+3.audit logging
+	  
+cloud spanner is horizontally scalable RDBMS
+capacity: petabytes
+large scale database applications
+large scale database applications
+
+
+Differance between cloud SQL and cloud Spanner
+cloud SQL:
+1.MYSQL,PostgresSQL,SQL server
+2.30TB
+3.Regional replication
+
+cloud Spanner:
+1.Unlimited capacity
+2.global replication

@@ -1,0 +1,22 @@
+
+
+
+ THE ZOOKEEPER SERVER IS READY TO START. 
+Open the command prompt and go to the kafka_2.12-2.6.0\bin\windows directory. Then, type the command:
+zookeeper-server-start.bat ../../config/zookeeper.Properties
+
+ TO START KAFKA-SERVER :-
+Open the command prompt and go to the kafka_2.12-2.6.0\bin\windows directory. Then, type the command:
+kafka-server-start.bat ../../config/server.properties
+
+ CREATE TOPIC IN KAFKA :-
+kafka-topics.bat --bootstrap-server localhost:9092 --create --topic mydemo
+
+ TO SEE TOPIC LIST IN KAFKA :-
+kafka-topics.bat --bootstrap-server localhost:9092 --list
+
+Describing the new topic
+kafka-topics.bat --bootstrap-server localhost:9092 --describe
+
+Create topic with 3 partitionans
+kafka-topics.bat --bootstrap-server localhost:9092 --create --topic mydemo --partitions 3 --replication-factor 

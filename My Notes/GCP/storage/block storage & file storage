@@ -1,0 +1,47 @@
+1.Block storage:
+
+local SSD:
+
+Compute Engine offers always-encrypted local solid-state drive (SSD) block storage for virtual machine (VM) instances. 
+Each local SSD is 375 GB in size, but you can attach a maximum of 24 local SSD partitions for 9 TB per instance. 
+Optionally, you can format and mount multiple local SSD partitions into a single logical volume.
+
+
+9 TB maximum capacity
+You can create an instance with:
+
+16 local SSD partitions for 6 TB of local SSD space and performance of 1.6 million read IOPS
+24 local SSD partitions for 9 TB of local SSD space and performance of 2.4 million read IOPS
+
+Good For:
+Flash-optimized databases
+Hot caching layer for analytics
+Application scratch disk
+
+Persistent disks:
+
+Persistent disks are durable network storage devices that your instances can access like physical disks in a desktop or a server. 
+Persistent disks are located independently from your virtual machine (VM) instances, so you can detach or move persistent disks to keep your data even after you delete your instances.
+
+By default, each Compute Engine instance has a single boot persistent disk (PD) that contains the operating system. 
+When your apps require additional storage space, you can add one or more additional storage options to your instance.
+
+Zonal persistent disk: Efficient, reliable block storage.
+Regional persistent disk: Regional block storage replicated in two zones.
+
+2. File storage
+
+Filestore
+
+Fully managed service for file migration and storage. Easily mount file shares on Compute Engine VMs.
+-->Firestore is a NoSQL, document-oriented database. We store data in documents, and a group of document is called collections.
+-->Each document contains a set of key-value pairs and max size of a document is 1Mb.
+-->A document can't contain another document it can point to another collection.
+-->While storing data  If either the collection or document does not exist, Firestore creates it and store data in the document.
+-->Firestore is schemaless, means each document in the collection can contain different field, but it's recomended to have same feild in each document inside a collection.
+Good for:
+
+Data analytics
+Rendering and media processing
+Application migrations
+Web content management

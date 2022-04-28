@@ -1,0 +1,13 @@
+*Join
+ord_df.join(ord_items_df, ord_df.col("order_id").equalTo(ord_items_df.col("order_item_order_id")))
+
+when we join using right and left join we get all values null
+
+*Cast
+.withColumn("order_item_subtotal", ord_items_df.col("order_item_subtotal").cast("int"))
+
+import col,count
+import static org.apache.spark.sql.functions.col;
+
+order by
+.orderBy(col("customer_id").cast("int"))

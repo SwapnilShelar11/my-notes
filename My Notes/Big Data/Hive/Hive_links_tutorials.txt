@@ -1,0 +1,17 @@
+Hive tutorials-   https://www.tutorialspoint.com/hive/
+
+Hive Partitions- https://data-flair.training/blogs/apache-hive-partitions/
+
+Hive tables - https://data-flair.training/blogs/hive-internal-tables-vs-external-tables/
+
+Hive compression techniches- https://sqlrelease.com/data-compression-in-hive-an-introduction-to-hadoop-data-compression ,
+https://data-flair.training/forums/topic/which-compression-is-used-in-hadoop-which-of-them-is-splittable/
+
+Hive file formats- https://dwgeek.com/hive-different-file-formats-text-sequence-rc-avro-orc-parquet-file.html/
+
+Hive TBLproperties - https://community.cloudera.com/t5/Support-Questions/Hive-TBLPROPERTIES/td-p/134806#:~:text=The%20TBLPROPERTIES%20clause%20allows%20you,added%20and%20managed%20by%20Hive.
+
+Hive order by, sort by, distributed by, cluster by- https://www.youtube.com/watch?v=7U-bjIlWUO8,
+https://cwiki.apache.org/confluence/display/Hive/LanguageManual+SortBy
+
+Hive interview question series- https://www.youtube.com/watch?v=8tFyr02GYzc&list=PLIeFQEzpZM9gDh5UWCPeI11M-Ykm4scq1&index=1

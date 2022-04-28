@@ -1,0 +1,2 @@
+https://googlecloudcheatsheet.withgoogle.com/
+https://github.com/priyankavergadia/GCPSketchnote

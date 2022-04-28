@@ -1,0 +1,29 @@
+IAM:
+
+IAM lets you grant granular access to specific Google Cloud resources and helps prevent access to other resources.
+IAM lets you adopt the security principle of least privilege, which states that nobody should have more permissions than they actually need.
+
+How IAM Works
+In IAM, permission to access a resource isn't granted directly to the end user. Instead, permissions are grouped into roles, and roles are granted to authenticated principals. 
+(In the past, IAM often referred to principals as members. Some APIs still use this term.)
+
+Principal. A principal can be a Google Account (for end users), a service account (for applications and compute workloads), a Google group, or a Google Workspace account or Cloud Identity domain that can access a resource. 
+The identity of a principal is an email address associated with a user, service account, or Google group; 
+or a domain name associated with a Google Workspace account or a Cloud Identity domain.
+
+Role. A role is a collection of permissions. 
+Permissions determine what operations are allowed on a resource. 
+When you grant a role to a principal, you grant all the permissions that the role contains.
+Policy. The IAM policy is a collection of role bindings that bind one or more principals to individual roles. 
+When you want to define who (principal) has what type of access (role) on a resource, you create a policy and attach it to the resource.
+
+In IAM, you grant access to principals. 
+Principals can be of the following types:
+
+Google Account
+Service account
+Google group
+Google Workspace account
+Cloud Identity domain
+All authenticated users
+All users
